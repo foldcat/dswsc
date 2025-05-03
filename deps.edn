@@ -12,6 +12,5 @@
 
  :deps
  {org.clojure/clojure {:mvn/version "1.12.0"}
-  org.clojure/core.async {:mvn/version "1.8.741"}
   com.taoensso/timbre {:mvn/version "6.7.0"}
   hato/hato {:mvn/version "1.0.0"}}}
