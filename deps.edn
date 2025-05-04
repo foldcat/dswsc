@@ -8,7 +8,9 @@
           :main-opts  ["-m" "nrepl.cmdline"
                        "--middleware"
                        "[cider.nrepl/cider-middleware]"
-                       "-i"]}}
+                       "-i"]}
+  :build {:deps {io.github.clojure/tools.build {:mvn/version "0.10.8"}}
+          :ns-default build}}
 
  :deps
  {org.clojure/clojure {:mvn/version "1.12.0"}

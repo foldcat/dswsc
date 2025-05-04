@@ -1,4 +1,5 @@
 (ns dswsc.core
+  (:gen-class)
   (:require [hato.websocket :as ws]
             [taoensso.timbre :as log]))
 
